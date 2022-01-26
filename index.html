@@ -6,12 +6,24 @@
         poem.org:Homepage
       </title>
       <style>
-         #b{
+        .name_asdfg{
+          margin-left: 40px;
+        }
+        #header{
+          text-decoration: underline;
+          z-index: 0;
+        }
+        #b{
           background-color: rgb(0, 221, 250);
           border-top-style: solid;
           border-top-color: rgb(0, 221, 250);
           border-bottom-style: solid;
           border-bottom-color: rgb(0, 221, 250);
+          z-index: 0;
+        }
+        #f{
+          background-color: yellow;
+          font-size: 1.10em;
           z-index: 0;
         }
       </style>
@@ -26,12 +38,29 @@
         <div id="b">
           <h1 id="header">
             <svg viewBox="0 0 10 10" x="200" width="100" stroke="red" fill="blue" alt="a circle">
-                <circle cx="5" cy="5" r="4" />
+                <circle cx="5" cy="5" r="4"/>
                 <circle cx="5" cy="5" r="2" stroke="blue" fill="yellow"/>
                 <circle cx="5" cy="5" r="0.5" stroke="none"  fill="black"/>
             </svg>
             Poem.org 
           </h1>
+        </div>
+        <div id="f">
+          <h4>
+            <a href="https://poem-org.github.io/home.html" target="">
+              Home
+            </a>
+            <span class="name_asdfg">
+              <a href="https://poem-org.github.io/top-ten-poems.html/" target="blank">
+                Top Ten Poems
+              </a>
+            </span>
+            <span class="name_asdfg">
+              <a>
+                Help
+              </a>
+            </span>
+          </h4>
         </div>
       </div>
       <script>
