@@ -1,1 +1,21 @@
 
+.name_asdfg{
+  margin-left: 40px;
+}
+#header{
+  text-decoration: underline;
+  z-index: 0;
+}
+#b{
+  background-color: rgb(0, 221, 250);
+  border-top-style: solid;
+  border-top-color: rgb(0, 221, 250);
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0, 221, 250);
+  z-index: 0;
+}
+#f{
+  background-color: yellow;
+  font-size: 1.10em;
+  z-index: 0;
+}
